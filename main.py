@@ -17,7 +17,6 @@ class Driver(Person):
         return f"{base_info} Посвідчення водія {self.license_number}"
 
 
-# Перевірка роботи
 person = Person("Олег", 28)
 driver = Driver("Максім", 35, "ВХ2342АС")
 
